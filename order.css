@@ -1,0 +1,146 @@
+/* General Body Styling */
+body {
+    background: linear-gradient(to bottom right, #ffe5b4, #ffc107);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-link.active {
+    background-color: #ffc107;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Section Headers */
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #d9534f; /* Red tone for headings */
+}
+
+/* Pizza Cards */
+.card {
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #343a40;
+}
+.card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+    color: #343a40;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #d9534f;
+    color: white;
+}
+
+/* User Reviews Form */
+#review-form {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+#review-form label {
+    font-weight: bold;
+    color: #343a40;
+}
+#review-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+#review-form button {
+    background-color: #ffc107;
+    color: #343a40;
+    font-weight: bold;
+}
+#review-form button:hover {
+    background-color: #d9534f;
+    color: white;
+}
+
+/* Reviews Container */
+#reviews-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+#reviews-container .review {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#reviews-container .review:last-child {
+    border-bottom: none;
+}
+.review p {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+.modal-content {
+    border-radius: 10px;
+    background-color: #ffe5b4; /* Match the page theme */
+    color: #343a40;
+}
+.modal-header {
+    background-color: #ffc107;
+    border-bottom: none;
+}
+.modal-footer .btn-secondary {
+    background-color: #d9534f;
+    color: white;
+}
+.modal-footer .btn-primary {
+    background-color: #343a40;
+    color: #ffc107;
+}

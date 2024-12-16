@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+  background: url('C:\Users\ASUS\Desktop\isha\pizzahome.jpg') no-repeat center center/cover;
+  color:white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Section Titles */
+h1, h2 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #d32f2f;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b71c1c;
+}
+
+.btn-success {
+  background-color: #388e3c;
+}
+
+.btn-success:hover {
+  background-color: #2e7d32;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Reviews Section */
+#reviews-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.border {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Cart Items */
+#cart-items .d-flex {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}

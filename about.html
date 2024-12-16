@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - PIZZA HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+        background-color: #f7f7f7; /* Light grey background */
+        color: #333;
+    }
+        .about-section {
+        background-color: #ffffff; /* White background for content */
+        padding: 50px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .about-img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .mission, .values {
+        background-color: #ffffff; /* White background for sections */
+        padding: 40px 0;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+        .mission p, .values p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .team-section {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .team-member {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .team-member img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .team-member h5 {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .team-member p {
+            font-size: 1rem;
+            color: #555;
+        }
+        footer {
+        background-color: #343a40; /* Dark grey footer */
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Pizza Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="delivery.html">Delivery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="container about-section text-center">
+        <h1>About Us</h1>
+        <p>Welcome to Pizza Home! We're passionate about bringing you the best pizzas, crafted with love and delivered hot and fresh to your doorstep.</p>
+        <p>We pride ourselves on quality ingredients, excellent service, and a wide variety of flavors to satisfy every craving.</p>
+
+        <!-- Our Story Section -->
+        <div class="mission">
+            <div class="container">
+                <h2 class="section-title text-center">Our Story</h2>
+                <p>Founded with a vision to bring delicious and affordable pizza to every household, Domino's Clone started as a small local business and has grown to serve communities far and wide. Every pizza we make is a testament to our dedication to quality, freshness, and customer satisfaction.</p>
+                <img src="C:\Users\ASUS\Desktop\isha\pizzahome.jpg" alt="Our Story" class="about-img">
+            </div>
+        </div>
+
+        <!-- Our Mission Section -->
+        <div class="mission">
+            <div class="container">
+                <h2 class="section-title text-center">Our Mission</h2>
+                <p>Our mission is simple: to provide our customers with top-notch pizzas made from the finest ingredients, delivered with exceptional service. We believe in quality, convenience, and a sense of community, aiming to spread joy one pizza at a time!</p>
+            </div>
+        </div>
+
+        <!-- Our Values Section -->
+        <div class="values">
+            <div class="container">
+                <h2 class="section-title text-center">Our Values</h2>
+                <p>At Pizza home, we are committed to:</p>
+                <ul>
+                    <li>Consistency in Quality</li>
+                    <li>Customer-Centric Service</li>
+                    <li>Fresh and Healthy Ingredients</li>
+                    <li>Innovation in Pizza Making</li>
+                    <li>Giving Back to Our Community</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Our Team Section -->
+        <div class="team-section">
+            <div class="team-member">
+                <img src="C:\Users\ASUS\Desktop\isha\ishu.jpg" alt="ISHA">
+                <h5>ISHA</h5>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src ="C:\Users\ASUS\Desktop\isha\trupti.jpg" alt="TRUPTI">
+                <h5>TRUPTI</h5>
+                <p>Head Chef</p>
+            </div>
+            <div class="team-member">
+                <img src="C:\Users\ASUS\Desktop\isha\shreya.jpg" alt="SHREYA">
+                <h5>SHREYA</h5>
+                <p>Operations Manager</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Pizza Home. All rights reserved.</p>
+            <a href="privacy-policy.html" class="text-white">Privacy Policy</a> | <a href="terms.html" class="text-white">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
